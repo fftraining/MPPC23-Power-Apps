@@ -1,0 +1,111 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr41d_realestateshowings1s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr41d_realestateshowings1",
+    "Name": "Real Estate Showings",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr41d_address": "Address",
+      "cr41d_agentname": "Agent Name",
+      "cr41d_clientemail": "Client Email",
+      "cr41d_clientfullname": "Client Full Name",
+      "cr41d_date": "Date",
+      "cr41d_id": "ID",
+      "cr41d_realestateshowings1_AsyncOperations": "System Jobs",
+      "cr41d_realestateshowings1_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr41d_realestateshowings1_DuplicateBaseRecord": "Duplicate Records (cr41d_realestateshowings1_DuplicateBaseRecord)",
+      "cr41d_realestateshowings1_DuplicateMatchingRecord": "Duplicate Records (cr41d_realestateshowings1_DuplicateMatchingRecord)",
+      "cr41d_realestateshowings1_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr41d_realestateshowings1_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr41d_realestateshowings1_ProcessSession": "Process Sessions",
+      "cr41d_realestateshowings1_SyncErrors": "Sync Errors",
+      "cr41d_realestateshowings1id": "Real Estate Showings",
+      "cr41d_status": "Status (cr41d_status)",
+      "cr41d_time": "Time",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status (statecode)",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Real Estate Showings",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Status (Real Estate Showings)",
+    "Name": "cr41d_realestateshowings1_cr41d_status",
+    "OptionSetInfoNameMapping": {
+      "120200000": "Pending",
+      "120200001": "Confirmed",
+      "120200002": "Cancelled",
+      "120200003": "Completed"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr41d_status",
+        "OptionSetReferenceEntityName": "Real Estate Showings"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr41d_status",
+    "RelatedEntityName": "Real Estate Showings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Real Estate Showings)_1",
+    "Name": "cr41d_realestateshowings1_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Real Estate Showings"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Real Estate Showings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Real Estate Showings)",
+    "Name": "cr41d_realestateshowings1_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Real Estate Showings"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Real Estate Showings",
+    "Type": "OptionSetInfo"
+  }
+]

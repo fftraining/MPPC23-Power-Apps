@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ed4e7d76-4289-460e-968f-c5ca0cd7b8c3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr021_address" select="1" icon="1" preview="1">
+        <row name="result" id="cr021_realestatepropertyid">
+          <cell name="cr021_address" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr021_realestateproperty">
+          <attribute name="cr021_realestatepropertyid" />
+          <attribute name="cr021_address" />
+          <attribute name="createdon" />
+          <order attribute="cr021_address" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cr021_address" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Real Estate Properties" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

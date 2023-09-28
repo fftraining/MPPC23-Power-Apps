@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr021_realestateproperties",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr021_realestateproperty",
+    "Name": "Real Estate Properties",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner (_ownerid_value)",
+      "cr021_address": "Address",
+      "cr021_id": "ID",
+      "cr021_image": "Image",
+      "cr021_owner": "Owner (cr021_owner)",
+      "cr021_owneremail": "OwnerEmail",
+      "cr021_price": "Price",
+      "cr021_realestateproperty_AsyncOperations": "System Jobs",
+      "cr021_realestateproperty_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr021_realestateproperty_DuplicateBaseRecord": "Duplicate Records (cr021_realestateproperty_DuplicateBaseRecord)",
+      "cr021_realestateproperty_DuplicateMatchingRecord": "Duplicate Records (cr021_realestateproperty_DuplicateMatchingRecord)",
+      "cr021_realestateproperty_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr021_realestateproperty_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr021_realestateproperty_ProcessSession": "Process Sessions",
+      "cr021_realestateproperty_SyncErrors": "Sync Errors",
+      "cr021_realestatepropertyid": "Real Estate Property",
+      "cr021_size": "Size",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Real Estate Properties",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Real Estate Properties (Views)",
+    "Name": "_cr021_realestateproperty_views",
+    "RelatedEntityName": "Real Estate Properties",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "23baa19d-1ef4-4cbb-bd05-3fee310ac57c": "Real Estate Property Lookup View",
+      "4b9508a9-3f2b-4640-b429-6505abdf5eb7": "Real Estate Property Advanced Find View",
+      "654cf3ef-0a9e-4e42-8cb8-bab92312c3fd": "Active Real Estate Properties",
+      "bd0d431d-737e-4209-ab4a-0211f17d11ca": "Inactive Real Estate Properties",
+      "cbbe80a3-ee34-4e5e-8d4b-2acffbb287a6": "Real Estate Property Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Real Estate Properties)",
+    "Name": "cr021_realestateproperty_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Real Estate Properties"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Real Estate Properties",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Real Estate Properties)",
+    "Name": "cr021_realestateproperty_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Real Estate Properties"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Real Estate Properties",
+    "Type": "OptionSetInfo"
+  }
+]
