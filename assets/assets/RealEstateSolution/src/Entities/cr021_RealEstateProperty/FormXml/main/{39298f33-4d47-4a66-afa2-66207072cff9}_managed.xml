@@ -35,6 +35,54 @@
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{e0d234a0-1649-4f45-a14f-02c4ccd2a325}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cr021_id" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="cr021_id" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e277a007-50c1-4104-99ea-01cc7fef4d93}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cr021_price" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="cr021_price" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54dd0a75-b7c2-4b87-9638-e9008243fa00}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cr021_size" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="cr021_size" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f604f628-2879-4c33-8b03-0ebb304479b1}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cr021_owner" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cr021_owner" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fbaf2f1d-6868-4211-9d87-7fc2802bb9e0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cr021_owneremail" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cr021_owneremail" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f244bc5d-5d99-47c6-bbd3-38d938f2be3a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="cr021_image" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="cr021_image" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>

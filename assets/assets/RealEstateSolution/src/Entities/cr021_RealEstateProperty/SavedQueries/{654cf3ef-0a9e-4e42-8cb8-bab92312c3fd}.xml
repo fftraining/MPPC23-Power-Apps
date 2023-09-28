@@ -12,6 +12,12 @@
         <row name="result" id="cr021_realestatepropertyid">
           <cell name="cr021_address" width="300" />
           <cell name="createdon" width="125" />
+          <cell name="cr021_id" width="150" />
+          <cell name="cr021_price" width="150" />
+          <cell name="cr021_size" width="150" />
+          <cell name="cr021_owner" width="150" />
+          <cell name="cr021_owneremail" width="150" />
+          <cell name="cr021_image" width="150" />
         </row>
       </grid>
     </layoutxml>
